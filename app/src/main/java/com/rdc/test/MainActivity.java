@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements OnStartDragListen
 
     @Override
     public void onStartDrag(RecyclerView.ViewHolder viewHolder) {
+        //通知ItemTouchHelper开始拖拽
         mItemTouchHelper.startDrag(viewHolder);
     }
 }
